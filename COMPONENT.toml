@@ -3,12 +3,12 @@ name = "SigmaOS-printing"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "printing component"
+description = "Printing system and printer management for the SigmaOS project."
 upstream = []
 
 [contract]
 provides = ["component"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
