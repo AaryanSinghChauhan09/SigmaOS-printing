@@ -1,5 +1,8 @@
 //! SigmaOS-printing: printing component model.
 
+/// Printer management module.
+pub mod sigmaprinter;
+
 use std::collections::BTreeMap;
 use std::fmt;
 
